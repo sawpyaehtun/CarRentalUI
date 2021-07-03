@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		123B184664521CCEACB9D61C /* Pods_iOSUITest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A711EAE360D7286F01E11C85 /* Pods_iOSUITest.framework */; };
+		878060D997F00D217FC5F984 /* Pods_iOSUITest_iOSUITestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E9F8AFF4AE267AD3A33181 /* Pods_iOSUITest_iOSUITestUITests.framework */; };
 		A7250B34268FFE95009FC477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7250B33268FFE95009FC477 /* AppDelegate.swift */; };
 		A7250B36268FFE95009FC477 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7250B35268FFE95009FC477 /* SceneDelegate.swift */; };
 		A7250B38268FFE95009FC477 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7250B37268FFE95009FC477 /* ViewController.swift */; };
@@ -15,6 +17,32 @@
 		A7250B40268FFE96009FC477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7250B3E268FFE96009FC477 /* LaunchScreen.storyboard */; };
 		A7250B4B268FFE96009FC477 /* iOSUITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7250B4A268FFE96009FC477 /* iOSUITestTests.swift */; };
 		A7250B56268FFE96009FC477 /* iOSUITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7250B55268FFE96009FC477 /* iOSUITestUITests.swift */; };
+		A7250B6526900097009FC477 /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7250B6426900097009FC477 /* MainTabbarController.swift */; };
+		A7250B68269000D1009FC477 /* RentCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7250B66269000D1009FC477 /* RentCarViewController.swift */; };
+		A7250B69269000D1009FC477 /* RentCarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7250B67269000D1009FC477 /* RentCarViewController.xib */; };
+		A7250B6C269000DF009FC477 /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7250B6A269000DF009FC477 /* BookingViewController.swift */; };
+		A7250B6D269000DF009FC477 /* BookingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7250B6B269000DF009FC477 /* BookingViewController.xib */; };
+		A7250B7026900274009FC477 /* ReferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7250B6E26900274009FC477 /* ReferViewController.swift */; };
+		A7250B7126900274009FC477 /* ReferViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7250B6F26900274009FC477 /* ReferViewController.xib */; };
+		A7250B742690028A009FC477 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7250B722690028A009FC477 /* AccountViewController.swift */; };
+		A7250B752690028A009FC477 /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7250B732690028A009FC477 /* AccountViewController.xib */; };
+		A7250B772690045A009FC477 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7250B762690045A009FC477 /* BaseViewController.swift */; };
+		A7250B79269005B5009FC477 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7250B78269005B5009FC477 /* CardView.swift */; };
+		A7250B7B2690061C009FC477 /* RoundedCornerUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7250B7A2690061C009FC477 /* RoundedCornerUIButton.swift */; };
+		A7250B7F26901130009FC477 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7250B7D26901130009FC477 /* SearchResultViewController.swift */; };
+		A7250B8026901130009FC477 /* SearchResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7250B7E26901130009FC477 /* SearchResultViewController.xib */; };
+		A7250B842690158F009FC477 /* CarItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7250B822690158F009FC477 /* CarItemTableViewCell.swift */; };
+		A7250B852690158F009FC477 /* CarItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7250B832690158F009FC477 /* CarItemTableViewCell.xib */; };
+		A7250B8726901A86009FC477 /* RoundedUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7250B8626901A86009FC477 /* RoundedUIImageView.swift */; };
+		A7250B8B26901F8E009FC477 /* CarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7250B8926901F8E009FC477 /* CarDetailViewController.swift */; };
+		A7250B8C26901F8E009FC477 /* CarDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7250B8A26901F8E009FC477 /* CarDetailViewController.xib */; };
+		A7250B8E269022C3009FC477 /* UITableView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7250B8D269022C3009FC477 /* UITableView + Extension.swift */; };
+		A7250B91269023D3009FC477 /* CarDetailInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7250B8F269023D3009FC477 /* CarDetailInfoTableViewCell.swift */; };
+		A7250B92269023D3009FC477 /* CarDetailInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7250B90269023D3009FC477 /* CarDetailInfoTableViewCell.xib */; };
+		A7250B9526903180009FC477 /* CarImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7250B9326903180009FC477 /* CarImageCollectionViewCell.swift */; };
+		A7250B9626903180009FC477 /* CarImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7250B9426903180009FC477 /* CarImageCollectionViewCell.xib */; };
+		A7250B9826903310009FC477 /* UICollectionView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7250B9726903310009FC477 /* UICollectionView + Extension.swift */; };
+		EC3738EA52B10598DEACB5E1 /* Pods_iOSUITestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62DFEA39947B29A2EF2173C /* Pods_iOSUITestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +63,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4247830AF6DC0A9B47EB055E /* Pods-iOSUITestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSUITestTests.debug.xcconfig"; path = "Target Support Files/Pods-iOSUITestTests/Pods-iOSUITestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		53702CB1552DC62A7FEE49D7 /* Pods-iOSUITestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSUITestTests.release.xcconfig"; path = "Target Support Files/Pods-iOSUITestTests/Pods-iOSUITestTests.release.xcconfig"; sourceTree = "<group>"; };
+		6D8F760D43A472C5E0AC50F5 /* Pods-iOSUITest-iOSUITestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSUITest-iOSUITestUITests.release.xcconfig"; path = "Target Support Files/Pods-iOSUITest-iOSUITestUITests/Pods-iOSUITest-iOSUITestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		83E9F8AFF4AE267AD3A33181 /* Pods_iOSUITest_iOSUITestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSUITest_iOSUITestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A711EAE360D7286F01E11C85 /* Pods_iOSUITest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSUITest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7250B30268FFE95009FC477 /* iOSUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7250B33268FFE95009FC477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7250B35268FFE95009FC477 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +82,35 @@
 		A7250B51268FFE96009FC477 /* iOSUITestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSUITestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7250B55268FFE96009FC477 /* iOSUITestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSUITestUITests.swift; sourceTree = "<group>"; };
 		A7250B57268FFE96009FC477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7250B6426900097009FC477 /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
+		A7250B66269000D1009FC477 /* RentCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentCarViewController.swift; sourceTree = "<group>"; };
+		A7250B67269000D1009FC477 /* RentCarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RentCarViewController.xib; sourceTree = "<group>"; };
+		A7250B6A269000DF009FC477 /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
+		A7250B6B269000DF009FC477 /* BookingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookingViewController.xib; sourceTree = "<group>"; };
+		A7250B6E26900274009FC477 /* ReferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferViewController.swift; sourceTree = "<group>"; };
+		A7250B6F26900274009FC477 /* ReferViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReferViewController.xib; sourceTree = "<group>"; };
+		A7250B722690028A009FC477 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		A7250B732690028A009FC477 /* AccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
+		A7250B762690045A009FC477 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A7250B78269005B5009FC477 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A7250B7A2690061C009FC477 /* RoundedCornerUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerUIButton.swift; sourceTree = "<group>"; };
+		A7250B7D26901130009FC477 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		A7250B7E26901130009FC477 /* SearchResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultViewController.xib; sourceTree = "<group>"; };
+		A7250B822690158F009FC477 /* CarItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarItemTableViewCell.swift; sourceTree = "<group>"; };
+		A7250B832690158F009FC477 /* CarItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarItemTableViewCell.xib; sourceTree = "<group>"; };
+		A7250B8626901A86009FC477 /* RoundedUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedUIImageView.swift; sourceTree = "<group>"; };
+		A7250B8926901F8E009FC477 /* CarDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailViewController.swift; sourceTree = "<group>"; };
+		A7250B8A26901F8E009FC477 /* CarDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarDetailViewController.xib; sourceTree = "<group>"; };
+		A7250B8D269022C3009FC477 /* UITableView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView + Extension.swift"; sourceTree = "<group>"; };
+		A7250B8F269023D3009FC477 /* CarDetailInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailInfoTableViewCell.swift; sourceTree = "<group>"; };
+		A7250B90269023D3009FC477 /* CarDetailInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarDetailInfoTableViewCell.xib; sourceTree = "<group>"; };
+		A7250B9326903180009FC477 /* CarImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		A7250B9426903180009FC477 /* CarImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		A7250B9726903310009FC477 /* UICollectionView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView + Extension.swift"; sourceTree = "<group>"; };
+		C1163BE7DB1EE90901EE9363 /* Pods-iOSUITest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSUITest.release.xcconfig"; path = "Target Support Files/Pods-iOSUITest/Pods-iOSUITest.release.xcconfig"; sourceTree = "<group>"; };
+		D24EBE9CCD33D3A5A6C59BC4 /* Pods-iOSUITest-iOSUITestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSUITest-iOSUITestUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOSUITest-iOSUITestUITests/Pods-iOSUITest-iOSUITestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D62DFEA39947B29A2EF2173C /* Pods_iOSUITestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSUITestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0AE998786703185D7AA255D /* Pods-iOSUITest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSUITest.debug.xcconfig"; path = "Target Support Files/Pods-iOSUITest/Pods-iOSUITest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				123B184664521CCEACB9D61C /* Pods_iOSUITest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC3738EA52B10598DEACB5E1 /* Pods_iOSUITestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				878060D997F00D217FC5F984 /* Pods_iOSUITest_iOSUITestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +148,8 @@
 				A7250B49268FFE96009FC477 /* iOSUITestTests */,
 				A7250B54268FFE96009FC477 /* iOSUITestUITests */,
 				A7250B31268FFE95009FC477 /* Products */,
+				CDAFC0B2F7AFAABE7F9478EE /* Pods */,
+				D13E2F966842863D422FF523 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +166,7 @@
 		A7250B32268FFE95009FC477 /* iOSUITest */ = {
 			isa = PBXGroup;
 			children = (
+				A7250B6326900086009FC477 /* ViewControllers */,
 				A7250B33268FFE95009FC477 /* AppDelegate.swift */,
 				A7250B35268FFE95009FC477 /* SceneDelegate.swift */,
 				A7250B37268FFE95009FC477 /* ViewController.swift */,
@@ -128,6 +196,69 @@
 			path = iOSUITestUITests;
 			sourceTree = "<group>";
 		};
+		A7250B6326900086009FC477 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A7250B812690157A009FC477 /* Cells */,
+				A7250B6426900097009FC477 /* MainTabbarController.swift */,
+				A7250B66269000D1009FC477 /* RentCarViewController.swift */,
+				A7250B67269000D1009FC477 /* RentCarViewController.xib */,
+				A7250B6A269000DF009FC477 /* BookingViewController.swift */,
+				A7250B6B269000DF009FC477 /* BookingViewController.xib */,
+				A7250B6E26900274009FC477 /* ReferViewController.swift */,
+				A7250B6F26900274009FC477 /* ReferViewController.xib */,
+				A7250B722690028A009FC477 /* AccountViewController.swift */,
+				A7250B732690028A009FC477 /* AccountViewController.xib */,
+				A7250B762690045A009FC477 /* BaseViewController.swift */,
+				A7250B78269005B5009FC477 /* CardView.swift */,
+				A7250B7A2690061C009FC477 /* RoundedCornerUIButton.swift */,
+				A7250B7D26901130009FC477 /* SearchResultViewController.swift */,
+				A7250B7E26901130009FC477 /* SearchResultViewController.xib */,
+				A7250B8626901A86009FC477 /* RoundedUIImageView.swift */,
+				A7250B8926901F8E009FC477 /* CarDetailViewController.swift */,
+				A7250B8A26901F8E009FC477 /* CarDetailViewController.xib */,
+				A7250B8D269022C3009FC477 /* UITableView + Extension.swift */,
+				A7250B9726903310009FC477 /* UICollectionView + Extension.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A7250B812690157A009FC477 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A7250B822690158F009FC477 /* CarItemTableViewCell.swift */,
+				A7250B832690158F009FC477 /* CarItemTableViewCell.xib */,
+				A7250B8F269023D3009FC477 /* CarDetailInfoTableViewCell.swift */,
+				A7250B90269023D3009FC477 /* CarDetailInfoTableViewCell.xib */,
+				A7250B9326903180009FC477 /* CarImageCollectionViewCell.swift */,
+				A7250B9426903180009FC477 /* CarImageCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CDAFC0B2F7AFAABE7F9478EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0AE998786703185D7AA255D /* Pods-iOSUITest.debug.xcconfig */,
+				C1163BE7DB1EE90901EE9363 /* Pods-iOSUITest.release.xcconfig */,
+				D24EBE9CCD33D3A5A6C59BC4 /* Pods-iOSUITest-iOSUITestUITests.debug.xcconfig */,
+				6D8F760D43A472C5E0AC50F5 /* Pods-iOSUITest-iOSUITestUITests.release.xcconfig */,
+				4247830AF6DC0A9B47EB055E /* Pods-iOSUITestTests.debug.xcconfig */,
+				53702CB1552DC62A7FEE49D7 /* Pods-iOSUITestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D13E2F966842863D422FF523 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A711EAE360D7286F01E11C85 /* Pods_iOSUITest.framework */,
+				83E9F8AFF4AE267AD3A33181 /* Pods_iOSUITest_iOSUITestUITests.framework */,
+				D62DFEA39947B29A2EF2173C /* Pods_iOSUITestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7250B5A268FFE96009FC477 /* Build configuration list for PBXNativeTarget "iOSUITest" */;
 			buildPhases = (
+				5D19C96DEAD6586E94887555 /* [CP] Check Pods Manifest.lock */,
 				A7250B2C268FFE95009FC477 /* Sources */,
 				A7250B2D268FFE95009FC477 /* Frameworks */,
 				A7250B2E268FFE95009FC477 /* Resources */,
@@ -152,6 +284,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7250B5D268FFE96009FC477 /* Build configuration list for PBXNativeTarget "iOSUITestTests" */;
 			buildPhases = (
+				18D9A994D6A0A659E4102597 /* [CP] Check Pods Manifest.lock */,
 				A7250B42268FFE96009FC477 /* Sources */,
 				A7250B43268FFE96009FC477 /* Frameworks */,
 				A7250B44268FFE96009FC477 /* Resources */,
@@ -170,6 +303,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7250B60268FFE96009FC477 /* Build configuration list for PBXNativeTarget "iOSUITestUITests" */;
 			buildPhases = (
+				A34CBAB2E632A9A5100D3092 /* [CP] Check Pods Manifest.lock */,
 				A7250B4D268FFE96009FC477 /* Sources */,
 				A7250B4E268FFE96009FC477 /* Frameworks */,
 				A7250B4F268FFE96009FC477 /* Resources */,
@@ -231,7 +365,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7250B69269000D1009FC477 /* RentCarViewController.xib in Resources */,
+				A7250B752690028A009FC477 /* AccountViewController.xib in Resources */,
+				A7250B7126900274009FC477 /* ReferViewController.xib in Resources */,
+				A7250B8026901130009FC477 /* SearchResultViewController.xib in Resources */,
 				A7250B40268FFE96009FC477 /* LaunchScreen.storyboard in Resources */,
+				A7250B92269023D3009FC477 /* CarDetailInfoTableViewCell.xib in Resources */,
+				A7250B852690158F009FC477 /* CarItemTableViewCell.xib in Resources */,
+				A7250B9626903180009FC477 /* CarImageCollectionViewCell.xib in Resources */,
+				A7250B8C26901F8E009FC477 /* CarDetailViewController.xib in Resources */,
+				A7250B6D269000DF009FC477 /* BookingViewController.xib in Resources */,
 				A7250B3D268FFE96009FC477 /* Assets.xcassets in Resources */,
 				A7250B3B268FFE95009FC477 /* Main.storyboard in Resources */,
 			);
@@ -253,14 +396,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18D9A994D6A0A659E4102597 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSUITestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D19C96DEAD6586E94887555 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSUITest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A34CBAB2E632A9A5100D3092 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSUITest-iOSUITestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A7250B2C268FFE95009FC477 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7250B7026900274009FC477 /* ReferViewController.swift in Sources */,
+				A7250B8E269022C3009FC477 /* UITableView + Extension.swift in Sources */,
 				A7250B38268FFE95009FC477 /* ViewController.swift in Sources */,
+				A7250B742690028A009FC477 /* AccountViewController.swift in Sources */,
 				A7250B34268FFE95009FC477 /* AppDelegate.swift in Sources */,
+				A7250B79269005B5009FC477 /* CardView.swift in Sources */,
+				A7250B6526900097009FC477 /* MainTabbarController.swift in Sources */,
+				A7250B772690045A009FC477 /* BaseViewController.swift in Sources */,
+				A7250B9526903180009FC477 /* CarImageCollectionViewCell.swift in Sources */,
+				A7250B9826903310009FC477 /* UICollectionView + Extension.swift in Sources */,
+				A7250B7B2690061C009FC477 /* RoundedCornerUIButton.swift in Sources */,
+				A7250B68269000D1009FC477 /* RentCarViewController.swift in Sources */,
+				A7250B842690158F009FC477 /* CarItemTableViewCell.swift in Sources */,
+				A7250B6C269000DF009FC477 /* BookingViewController.swift in Sources */,
+				A7250B91269023D3009FC477 /* CarDetailInfoTableViewCell.swift in Sources */,
+				A7250B7F26901130009FC477 /* SearchResultViewController.swift in Sources */,
+				A7250B8726901A86009FC477 /* RoundedUIImageView.swift in Sources */,
 				A7250B36268FFE95009FC477 /* SceneDelegate.swift in Sources */,
+				A7250B8B26901F8E009FC477 /* CarDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +661,7 @@
 		};
 		A7250B5B268FFE96009FC477 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0AE998786703185D7AA255D /* Pods-iOSUITest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +680,7 @@
 		};
 		A7250B5C268FFE96009FC477 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1163BE7DB1EE90901EE9363 /* Pods-iOSUITest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +699,7 @@
 		};
 		A7250B5E268FFE96009FC477 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4247830AF6DC0A9B47EB055E /* Pods-iOSUITestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +721,7 @@
 		};
 		A7250B5F268FFE96009FC477 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53702CB1552DC62A7FEE49D7 /* Pods-iOSUITestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +743,7 @@
 		};
 		A7250B61268FFE96009FC477 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D24EBE9CCD33D3A5A6C59BC4 /* Pods-iOSUITest-iOSUITestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +763,7 @@
 		};
 		A7250B62268FFE96009FC477 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D8F760D43A472C5E0AC50F5 /* Pods-iOSUITest-iOSUITestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
